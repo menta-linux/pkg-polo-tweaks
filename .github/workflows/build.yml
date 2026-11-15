@@ -41,7 +41,7 @@ jobs:
         working-directory: ${{ env.SRCDIR }}
         run: |
           export QUILT_PATCHES=debian/patches
-          quilt push -a || [ $? -eq 2 ]   # 2 = nothing to apply
+          if [ -s debian/patches/series ]; then quilt push -a; fi
 
       - name: Install build dependencies
         working-directory: ${{ env.SRCDIR }}
