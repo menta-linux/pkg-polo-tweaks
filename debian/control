@@ -1,0 +1,22 @@
+Source: polo-tweaks
+Section: x11
+Priority: optional
+Maintainer: Menta Linux <packages@menta-linux.invalid>
+Build-Depends: debhelper-compat (= 13),
+               libglib2.0-dev (>= 2.66),
+               libgtk-3-dev (>= 3.24),
+               meson (>= 0.59.0),
+               valac,
+Standards-Version: 4.7.2
+Homepage: https://github.com/KeremSoke/polo-tweaks
+Rules-Requires-Root: no
+
+Package: polo-tweaks
+Architecture: any
+Depends: polo,
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: settings program for the Polo Wayland compositor
+ Polo Tweaks edits every key of Polo's four GSettings schemas
+ (general, wobbly windows, animations, expo, cube and shortcuts pages).
+ Polo's GSettings schemas must be installed, which the polo package provides.
