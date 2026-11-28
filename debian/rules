@@ -4,8 +4,3 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
 %:
 	dh $@ --buildsystem=meson
-
-# install into debian/tmp and split with debian/polo-tweaks.install, so the complete upstream
-# install tree is available to the packaging checks (single-binary packages otherwise skip it)
-override_dh_auto_install:
-	dh_auto_install --destdir=debian/tmp

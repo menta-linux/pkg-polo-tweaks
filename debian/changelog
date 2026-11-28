@@ -1,9 +1,6 @@
 polo-tweaks (1.1.0-1menta1) unstable; urgency=medium
 
   * New upstream release 1.1.0.
-  * debian/rules, debian/polo-tweaks.install: install into debian/tmp and
-    split from there, so the pre-split install tree exists for the
-    packaging checks.
 
  -- Menta Linux <packages@menta-linux.invalid>  Fri, 27 Nov 2026 21:45:00 -0700
 
