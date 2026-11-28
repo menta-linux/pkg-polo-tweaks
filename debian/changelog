@@ -1,0 +1,12 @@
+polo-tweaks (1.0.0+git20261118.fb6ab1b-1menta1) unstable; urgency=medium
+
+  * Update to upstream master fb6ab1b (v1.0.0 + 6 commits: desktop
+    background page, i18n); add gettext build dependency.
+
+ -- Menta Linux <packages@menta-linux.invalid>  Sun, 22 Nov 2026 20:54:11 -0700
+
+polo-tweaks (0.1.0+git20261113.77d677d-1menta1) unstable; urgency=medium
+
+  * Menta Linux package of Polo Tweaks, git snapshot 77d677d.
+
+ -- Menta Linux <packages@menta-linux.invalid>  Sat, 14 Nov 2026 18:06:02 -0700
