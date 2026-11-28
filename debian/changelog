@@ -1,9 +1,3 @@
-polo-tweaks (1.1.0-1menta1) unstable; urgency=medium
-
-  * New upstream release 1.1.0.
-
- -- Menta Linux <packages@menta-linux.invalid>  Fri, 27 Nov 2026 21:45:00 -0700
-
 polo-tweaks (1.0.0+git20261118.fb6ab1b-1menta1) unstable; urgency=medium
 
   * Update to upstream master fb6ab1b (v1.0.0 + 6 commits: desktop
