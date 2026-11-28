@@ -1,5 +1,0 @@
-version=4
-# Upstream tags releases but attaches no release asset: use the tag archive of each vX.Y[.Z] tag.
-opts="filenamemangle=s%(?:.*?)?v?(\d[\d.]*)\.tar\.gz%polo-tweaks-$1.tar.gz%" \
-https://github.com/KeremSoke/polo-tweaks/tags \
-    (?:.*?/)?v?(\d[\d.]*)\.tar\.gz
